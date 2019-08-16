@@ -1,0 +1,10 @@
+pipeline {
+          agent any
+                  stage('one'){
+                                echo 'Hello, It's My trial Project'
+                                }
+                            }
+                  stage('two'){
+                                input ('Do you want to proceed')
+                                }
+                            }
